@@ -1,0 +1,196 @@
+body{
+	width:100%;
+}
+
+.im1{
+	margin-left:-30;
+}
+.im2{
+	width:356px;
+}
+.heading{
+	height:110px;
+	border-bottom: 2px solid red;
+	background-color: darkblue;
+	color:white;
+}
+.tw1{
+	padding-left:30px;
+}
+.tw{
+	padding-top:30px;
+	padding-left:210px;
+	font-size: 30px;
+}
+
+.main {
+  display: flex;
+  overflow: hidden;
+  height: 50vw;
+  background: #333;
+}
+ 
+.main img {
+  max-width: 100%;
+  vertical-align: middle;
+  border: 2px solid white;
+  box-sizing: border-box;
+  transition: opacity .2s;
+}
+.three{
+	width:214px;
+	height:200px;
+}
+.stay{
+	font-size:20px;
+	font-style: italic;
+	padding-left:200px;
+}
+.para{
+	font-style:italic;
+	margin-right:-210px;
+	font-size:20px;
+	color:#8B008B;
+	margin-left:20px;
+}
+
+.para1{
+	color:#2E8B57;
+	margin-right:-210px;
+	font-size:20px;
+	
+	
+}
+.fest{
+	color:#2E8B57;
+	font-size:20px;
+}
+.m{
+	margin-top: 15px;
+}
+.msg{
+	text-align: center;
+	font-size:30px;
+}
+.two{
+	width:230px;
+	height:280px;
+}
+.main:hover img {
+  opacity: 0.5;
+}
+ .mov{
+ 	background-image: url("https://assets.ubuntu.com/v1/54f4e9da-white.png");
+
+ }
+.main img:hover {
+  opacity: 1;
+}
+ 
+.main .single-column {
+	animation: var(--animation, none) 16s infinite linear;
+}
+ 
+.main .single-column:hover {
+	animation-play-state: paused;
+}
+ 
+.main .single-column:nth-of-type(odd) {
+  align-self: flex-end;
+  --direction: 50%;
+}
+ 
+@keyframes slide {
+  to {
+    -webkit-transform: translateX(var(--direction, -50%));
+            transform: translateX(var(--direction, -50%));
+  }
+}.one{
+	width:150px;
+	border:none;
+	height:150px;
+}
+.head{
+	color:white;
+	padding-left:210px;
+	margin-top:-80px;
+}
+.contact{
+	color:white;
+	padding-top:20px;
+	padding-left:210px;
+}
+.li1{
+	list-style: none;
+	border-bottom: 1px white solid;
+	margin-right:420px;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.li2{
+	list-style: none;
+	border-bottom: 1px white solid;
+	margin-right:170px;
+	padding-top:10px;
+	padding-bottom:10px;
+	
+}
+.info{
+	color:white;
+	padding-left:900px;
+	margin-top:-180px;
+}
+.info1{
+	color:white;
+	padding-left:1200px;
+	margin-top:-240px;
+}
+.container{
+	margin-top: -90px;
+}
+.adjust{
+	margin-top: 3px;
+	width:18%;
+	border-radius: 50%;
+}
+.image-resize{
+	height:250px;
+
+	overflow: hidden;
+	object-position: center center;
+}
+.upto{
+	height:300px;
+	width:1500px;
+	border-bottom: 2px solid orange;
+}
+.place{
+	padding-left:30px;
+	padding-top:20px;
+	color:#000080;
+	font-style:italic;
+}
+.about{
+	height:50px;
+	background-color: grey;
+	color:white;
+	padding-top:10px;
+}
+.play{
+	padding-top:30px;
+	padding-left:70px;
+	height:30%;
+	width:10%;
+}
+.last{
+	margin-top:-40px;
+	background-color: black;
+	height:400px;
+	width:1540px;
+}
+@keyframes slide {
+  to {
+    -webkit-transform: translateY(var(--direction, -50%));
+            transform: translateY(var(--direction, -50%));
+  }
+}
